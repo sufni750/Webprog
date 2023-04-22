@@ -16,9 +16,6 @@
   <option value="pla">PLA</option>
   <option value="petg">PETG</option>
 </select> 
-
-
-
  <br><br>
   <input type="submit" value="Kiszámol">
 </form>
