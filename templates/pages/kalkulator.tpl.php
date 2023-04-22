@@ -20,8 +20,10 @@
   <input type="submit" value="Kiszámol">
 </form>
 
-<form action="upload.php" method="post" enctype="multipart/form-data">
-  Select image to upload:
-  <input type="file" name="fileToUpload" id="fileToUpload">
-  <input type="submit" value="Upload Image" name="submit">
+
+
+<form action="./includes/beolvas.php" method="post" enctype="multipart/form-data">
+<label for="file">File:</label>
+	<input type="file" name="file" id="file">
+	<input type="submit" name="submit" value="Beolvas">
 </form>

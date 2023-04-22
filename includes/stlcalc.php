@@ -144,7 +144,7 @@ class STLCalc {
 		$p3	= $this->PhUnpack ( 'f3', 12 );
 		$b	= $this->PhUnpack ( 'v', 2 );
 
-		$l = count ( $this->points );
+		$l = count ((array)$this->points );
 		$this->PhAppend ( $this->triangles, array ( $l, $l+1, $l+2 ) );
 		return $this->SignedVolumeOfTriangle ( $p1, $p2, $p3 );
 	}
