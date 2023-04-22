@@ -1,0 +1,121 @@
+header {
+    border-radius: 5px;
+    background-image: url('./header_hatter.jpg');
+    /*background-repeat: repeat-x;
+    background-size: 18em;*/
+    height: 9em;
+    padding: 10px;
+    margin: 10px;
+
+    
+    max-height: 25rem;
+}
+
+header img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+    height: 150px;
+    width: 150px;
+}
+
+div#wrapper {
+    margin: 10px;
+}
+
+
+
+nav {
+    top: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6e6d6c;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li.active {
+    background-color: #F9B560;
+    color: black;
+    
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+div#content {
+    /*display: block;*/
+    background-image: linear-gradient(#d3dfe2, #ebeb77, #1a6a1a);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+div#content img {
+    float: right;
+    height: auto;
+    margin: 0 0 10px 10px;
+    padding: 3px;
+    border: 3px solid blue;
+}
+
+footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #D17B0F;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #F9B560;
+  color: black;
+}
+
+
+#tanfolyam_tabla {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: white;
+}
+
+#tanfolyam_tabla td, #tanfolyam_tabla th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#tanfolyam_tabla tr:nth-child(even){background-color: #f2f2f2;}
+
+#tanfolyam_tabla tr:hover {background-color: #ddd;}
+
+#tanfolyam_tabla th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.clear          { clear:both; }
+.photo-link     { padding:5px; margin:5px; border:1px solid #ccc; display:block; width:200px; float:left; }
+.photo-link:hover   { border-color:#999; }
